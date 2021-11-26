@@ -13,8 +13,10 @@
           />
         </ul>
       </ul>
+      
     </div>
     <About />
+    
     <img
       src="../assets/Avatar/SozialeArbeit.svg"
       class="avatar"
@@ -43,7 +45,7 @@
 import Start from "./Start.vue";
 import Departement from "./Departement.vue";
 import contentful from "../modules/contentful.js";
-import About from "./About.vue";
+import About from "./About.vue"
 
 export default {
   name: "Content",
@@ -122,7 +124,6 @@ export default {
 <style>
 h1 {
   font-family: "Spartan", sans-serif;
-  font-size: 1.5rem
 }
 
 .main-container {
@@ -146,7 +147,7 @@ h1 {
   display: block;
   background-image: none;
   width: 900px;
-  height: 350px;
+  height: 450px;
   position: fixed;
   bottom: 0;
   opacity: 0;
