@@ -19,6 +19,6 @@ npm run build
 ```
 npm run lint
 ```
+### Link to our site
+https://hslutour.netlify.app/#/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
